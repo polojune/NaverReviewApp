@@ -16,7 +16,15 @@ import com.cos.review.model.Product;
 // https://search.naver.com/search.naver?date_from=&date_option=0&date_to=&dup_remove=1&nso=&post_blogurl=&post_blogurl_without=&query=%EA%B0%A4%EB%9F%AD%EC%8B%9C20&sm=tab_pge&srchby=all&st=sim&where=post&start=41
 // 섬네일, 블로그주소, 제목, 날짜
 public class NaverBlogCrawTest {
-
+    
+	@Test
+	public void 로컬데이트_테스트() {
+		  String today = LocalDate.now().toString(); 
+		  System.out.println(today);
+	}
+	
+	
+	
 	//@Test
 	public void 날짜_파싱() {
 
